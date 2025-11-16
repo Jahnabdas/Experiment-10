@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">Popular Cars</h1>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search cars...">
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="carList" class="car-container"></div>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <img id="modalImg" class="modal-img">
+            <h2 id="modalName"></h2>
+            <p id="modalDetails"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
