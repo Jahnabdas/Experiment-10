@@ -3,73 +3,73 @@ const cars = [
         name: "Lamborghini Aventador",
         speed: "350 km/h",
         price: "$393,000",
-        img: "760x470xc.webp"
+        img: "images/760x470xc.webp"
     },
     {
         name: "Ferrari LaFerrari",
         speed: "350 km/h",
         price: "$1.4M",
-        img: "SpiderFerrariHP.webp"
+        img: "images/SpiderFerrariHP.webp"
     },
     {
         name: "Bugatti Chiron",
         speed: "420 km/h",
         price: "$3M",
-        img: "2022-bugatti-chiron-pur-sport.jpeg"
+        img: "images/2022-bugatti-chiron-pur-sport.jpeg"
     },
     {
         name: "Porsche 911 Turbo S",
         speed: "330 km/h",
         price: "$204,000",
-        img: "Porsche-911-992-TurboS.jpg"
+        img: "images/Porsche-911-992-TurboS.jpg"
     },
     {
         name: "McLaren 720S",
         speed: "341 km/h",
         price: "$299,000",
-        img: "89.jpg"
+        img: "images/89.jpg"
     },
     {
         name: "BMW i8",
         speed: "250 km/h",
         price: "$147,500",
-        img: "gallery_phphvUaXu1641332213.jpg"
+        img: "images/gallery_phphvUaXu1641332213.jpg"
     },
     {
         name: "Audi R8",
         speed: "330 km/h",
         price: "$142,700",
-        img: "audir8.webp"
+        img: "images/audir8.webp"
     },
     {
         name: "Nissan GTR",
         speed: "315 km/h",
         price: "$113,540",
-        img: "HD-wallpaper-nissan-gtr-skyline-nissan-skyline-car-auto-gtr.jpg"
+        img: "images/HD-wallpaper-nissan-gtr-skyline-nissan-skyline-car-auto-gtr.jpg"
     },
     {
         name: "Ford Mustang GT",
         speed: "250 km/h",
         price: "$55,000",
-        img: "ford-mustang-gt-jazda-za-kierownica-mustanga_1.jpg"
+        img: "images/ford-mustang-gt-jazda-za-kierownica-mustanga_1.jpg"
     },
     {
         name: "Chevrolet Camaro",
         speed: "250 km/h",
         price: "$63,000",
-        img: "hq720.jpg"
+        img: "images/hq720.jpg"
     },
     {
         name: "Rolls Royce Phantom",
         speed: "250 km/h",
         price: "$450,000",
-        img: "maxresdefault.jpg"
+        img: "images/maxresdefault.jpg"
     },
     {
         name: "Mercedes AMG GT",
         speed: "318 km/h",
         price: "$118,600",
-        img: "AMG_GT_R_Exterior_3-20170627155641-618x464.webp"
+        img: "images/AMG_GT_R_Exterior_3-20170627155641-618x464.webp"
     }
 ];
 
@@ -119,3 +119,4 @@ document.getElementById("searchBtn").onclick = () => {
 };
 
 displayCars(cars);
+
